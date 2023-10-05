@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'form-exercise';
+  test = false;
+  color = 'pink';
+  images: string[] = ['/assets/H60-L043528.JPG', '/assets/H60-L043770.JPG',
+    '/assets/HUAWEI MT7-TL103993.JPG', '/assets/HUAWEI MT7-TL103999.JPG']
 }
